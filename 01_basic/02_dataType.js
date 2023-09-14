@@ -24,7 +24,7 @@
 
  // object datatypes
 
-//  console.log(typeof "Anil");
+ console.log(typeof "Anil");
 //  console.log(typeod undefined); undefined
 //  console.log(typeod null); object
 
