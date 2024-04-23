@@ -3,6 +3,7 @@ let score = "33abc";
 // console.log(typeof score);
 // console.log(typeof (score));
 
+//Change value String to Number.
 let valueInNumber = Number(score);
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
@@ -22,6 +23,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "Anil" => true
 
 
+//Change value string to Number.
 let someNumber = 77;
 let stringNumber = String(someNumber);
 // console.log(stringNumber);
