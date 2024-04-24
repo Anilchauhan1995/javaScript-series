@@ -73,5 +73,14 @@ console.log(userTwo.emai);
 
 // 2) Non-primitive Datatypes
        Arrays  =>  object
-       Function  =>  function
+    //    Function  =>  function
     // Object  ===  object
+
+
+    // ++++++++++++++++++++++++++++++++++++++++++++++++
+  
+    // Two Type of Memorys 
+
+    // Stack Memory use in  (primitive)
+    // Heap Memory  use is (Refrence Non-primitivem) 
+
