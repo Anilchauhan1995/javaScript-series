@@ -62,15 +62,15 @@ if(2=="2"){
 const isUserloggedIn = true
 const debitCard = true
 
-if (isUserloggedIn && debitCard) {        //    all condition is true and code  execute
+if (isUserloggedIn && debitCard && 2==3) {        //    all condition is true and code  execute
 
     console.log("allow to buy");
     
 }
 
-if (loggedInFromGoogle || loggedInFromEmail) {        // any one contion true and code execute
+// if (loggedInFromGoogle || loggedInFromEmail) {        // any one contion true and code execute
 
-    console.log("user Logged in");
+//     console.log("user Logged in");
     
-}
+// }
 
