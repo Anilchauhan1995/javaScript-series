@@ -44,6 +44,10 @@ const books = [
 
  userBooks = books.filter( (bk)=> bk.genre==='History')
 
- userBooks = books.filter( (bk) =>{return bk.Publish >= 1995  })
+ userBooks = books.filter( (bk) =>{
+     
+    return bk.Publish >= 1995 && bk.genre === "History"
+  }
+)
 
 console.log(userBooks);
