@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html events</title>
+</head>
+<body>
+    <h2>Amazing image</h2>
+    <div id="images">
+        <ul>
+            <li><img width="200px" id="photoshop"  src="photoshop" alt=""></li>
+            <li><img width="200px" id="japan"  src="photoshop" alt=""></li>
+            <li><img width="200px" id="river"  src="photoshop" alt=""></li>
+            <li><img width="200px" id="owl"  src="photoshop" alt=""></li>
+            <li><img width="200px" id="prayer"  src="photoshop" alt=""></li>
+        </ul>
+    </div>
+
+    <script>
+        // document.getElementById('owl').onclick = function name() {
+        //     alert("owl clicked");
+        // }
+        document.getElementById('owl').addEventListener('click' , function() {
+            alert("owl clicked again")
+            
+        })
+        // attatchEvent
+        // jQuery - on
+
+        //type,timestamp,defaultprevented
+        //target, toElement,srcElement, currentTarget
+        //clintX, clientY, screenX, screenY
+        // altkey, ctrlkey, keycode
+
+
+        document.getElementById('owl').addEventListener('click' , function(e) {
+
+        console.log(e);
+        }, false)
+
+    </script>
+</body>
+</html>
